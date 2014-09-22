@@ -5,7 +5,7 @@ Running your own ngrok server is really easy! The instructions below will guide 
 ## 1. Get an SSL certificate
 ngrok provides secure tunnels via TLS, so you'll need an SSL certificate. Assuming you want to create
 tunnels on *.example.com, buy a wildcard SSL certificate for *.example.com. Note that if you
-don't need to run https tunnels that you don't need a wildcard certificate. (In fact, you can
+don't need to run https tunnels then you don't need a wildcard certificate. (In fact, you can
 just use a self-signed cert at that point, see the section on that later in the document).
 
 ## 2. Modify your DNS
